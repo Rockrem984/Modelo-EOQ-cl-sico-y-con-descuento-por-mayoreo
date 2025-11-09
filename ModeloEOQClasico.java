@@ -11,4 +11,6 @@ public static void main(String[]args){
     System.out.println("Ingrese el costo:");
     int costo = lector.nextInt();
     System.out.println("Ingrese el costo de almacenamiento: ");
+    double almacenamiento = lector.nextDouble();
+    System.out.println("Ingrese el tiempo de entrega");
 }
