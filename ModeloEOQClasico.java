@@ -17,5 +17,7 @@ public static void main(String[]args){
     int dias = lector.nextInt();
 
     cantidad = (double)Math.sqrt(2*demanda*costo/almacenamiento);
+    to =cantidad/demanda;
+    DecimalFormat df = new DecimalFormat("#.##");
   }
 }
