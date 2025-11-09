@@ -1,6 +1,7 @@
 import java.text.DecimalFormat;
 import java.util.Scanner;
 
+public class ModeloEOQClasico {
 public static void main(String[]args){
     Scanner lector = new Scanner(System.in);
     double n,le;
@@ -13,4 +14,5 @@ public static void main(String[]args){
     System.out.println("Ingrese el costo de almacenamiento: ");
     double almacenamiento = lector.nextDouble();
     System.out.println("Ingrese el tiempo de entrega: ");
+  }
 }
