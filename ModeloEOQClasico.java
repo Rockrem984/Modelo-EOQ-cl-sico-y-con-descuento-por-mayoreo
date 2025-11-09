@@ -19,5 +19,11 @@ public static void main(String[]args){
     cantidad = (double)Math.sqrt(2*demanda*costo/almacenamiento);
     to =cantidad/demanda;
     DecimalFormat df = new DecimalFormat("#.##");
+    System.out.println("Y= "+df.format(cantidad)+" to= "+df.format(to));
+
+    //Punto de reorden
+    n=dias/to;
+    int n1=(int)Math.floor(n);
+    le=(dias-n1*(to));
   }
 }
