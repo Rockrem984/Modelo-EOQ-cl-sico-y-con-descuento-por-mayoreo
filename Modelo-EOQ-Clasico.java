@@ -7,4 +7,6 @@ public static void main(String[]args){
     double cantidad,to;
     System.out.println("Datos");
     System.out.println("Ingrese el indice de demanda del producto: ");
+    int demanda = lector.nextInt();
+    System.out.println("Ingrese el costo:");
 }
