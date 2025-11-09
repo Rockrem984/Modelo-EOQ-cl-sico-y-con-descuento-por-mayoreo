@@ -9,4 +9,6 @@ public static void main(String[]args){
     System.out.println("Ingrese el indice de demanda del producto: ");
     int demanda = lector.nextInt();
     System.out.println("Ingrese el costo:");
+    int costo = lector.nextInt();
+    System.out.println("Ingrese el costo de almacenamiento: ");
 }
