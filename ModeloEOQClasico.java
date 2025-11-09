@@ -14,5 +14,8 @@ public static void main(String[]args){
     System.out.println("Ingrese el costo de almacenamiento: ");
     double almacenamiento = lector.nextDouble();
     System.out.println("Ingrese el tiempo de entrega: ");
+    int dias = lector.nextInt();
+
+    cantidad = (double)Math.sqrt(2*demanda*costo/almacenamiento);
   }
 }
