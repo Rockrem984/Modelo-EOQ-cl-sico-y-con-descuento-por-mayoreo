@@ -25,5 +25,11 @@ public static void main(String[]args){
     n=dias/to;
     int n1=(int)Math.floor(n);
     le=(dias-n1*(to));
+
+    //reorden
+    int reorden = (int)(le*demanda);
+
+    //Resultados
+    System.out.println("Pedido optimo (Modelo EOQ Clasico) es: " + Math.round(cantidad));
   }
 }
