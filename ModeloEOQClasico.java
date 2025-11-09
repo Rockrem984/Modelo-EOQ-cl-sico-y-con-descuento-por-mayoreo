@@ -30,6 +30,7 @@ public static void main(String[]args){
     int reorden = (int)(le*demanda);
 
     //Resultados
+    System.out.println();
     System.out.println("Pedido optimo (Modelo EOQ Clasico) es: " + Math.round(cantidad));
     System.out.println("El tiempor de entrega estimada es : "+df.format(to));
     System.out.println("El valor de n: "+n1);
