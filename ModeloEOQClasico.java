@@ -54,6 +54,15 @@ public static void main(String[]args){
         int costo = lector.nextInt();
         System.out.println("Ingrese el porcentaje de descuento: ");
         int porcentajeDescuento = lector.nextInt();
+        System.out.println("Ingrese la cantidad de costo unitarios a evaluar: ");
+        int cantidadCostos = lector.nextInt();
+
+        //Para cada costo
+        for(int i=0;i<cantidadCostos;i++){
+          System.out.println("\n---Precio "+(i+1)+"---");
+          System.out.println("Costo unitario: "+(i+1)+": ");
+          int cu= lector.nextInt();
+        }
 
       }
       }
