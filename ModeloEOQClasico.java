@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class ModeloEOQClasico {
 public static void main(String[]args){
     Scanner lector = new Scanner(System.in);
-    int option = 0;
+    int opcion = 0;
     do{
     System.out.println("\n \n \tMenu");  
     System.out.println("1. Modelo clasico EOQ ");
@@ -66,6 +66,6 @@ public static void main(String[]args){
 
       }
       }
-    }while(option != 3);
+    }while(opcion != 3);
   }
 }
