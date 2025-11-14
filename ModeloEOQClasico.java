@@ -50,6 +50,10 @@ public static void main(String[]args){
       case 2->{
         System.out.println("Ingrese la demanda del producto: ");
         int demanda = lector.nextInt();
+        System.out.println("Ingrese el costo del pedido: ");
+        int costo = lector.nextInt();
+        System.out.println("Ingrese el porcentaje de descuento: ");
+        int porcentajeDescuento = lector.nextInt();
 
       }
       }
