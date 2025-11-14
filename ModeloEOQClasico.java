@@ -64,12 +64,19 @@ public static void main(String[]args){
           int cu= lector.nextInt();
           //Calcula el costo de almacenamiento
           float almacenamiento2=(cu*porcentajeDescuento)/100f;
-          System.out.println("Costo de almacenamiento: "+almacenamiento2);
+          System.out.println("Costo de almacenamiento "+almacenamiento2);
           //Calcula cantidad optima
-          double cantidadOptima = Math.sqrt((2*costo2)/almacenamiento2);
-        }
+          double cantidadOptima = Math.sqrt((2*costo2*demanda2)/almacenamiento2);
+          System.out.println("Cantidad optima del pedido "+Math.round(cantidadOptima));
 
-      break;
+          double costoTotal = (demanda2*cu)+((demanda2*costo2)/cantidadOptima)+((almacenamiento2*cantidadOptima)/2);
+          System.out.println("Costo total unitario "+costoTotal);
+        }
+        break;
+        case 3:
+        System.out.println("Saliendo...");
+        break;
+
       }
     }while(opcion != 3);
   }
