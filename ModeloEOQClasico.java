@@ -4,6 +4,15 @@ import java.util.Scanner;
 public class ModeloEOQClasico {
 public static void main(String[]args){
     Scanner lector = new Scanner(System.in);
+    int option = 0;
+    do{
+    System.out.println("\n \n \tMenu");  
+    System.out.println("1. Modelo clasico EOQ ");
+    System.out.println("2. Inventario con descuento ");
+    System.out.println("3. Salir ");
+    System.out.println("Opcion ");
+    opcion = lector.nextInt();
+    
     double n,le;
     double cantidad,to;
     System.out.println("Datos");
@@ -35,5 +44,6 @@ public static void main(String[]args){
     System.out.println("El tiempor de entrega estimada es : "+df.format(to));
     System.out.println("El valor de n: "+n1);
     System.out.println("El punto de reorden es: "+reorden);
+    }
   }
 }
