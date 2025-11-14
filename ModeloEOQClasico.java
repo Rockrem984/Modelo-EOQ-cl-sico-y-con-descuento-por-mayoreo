@@ -12,7 +12,9 @@ public static void main(String[]args){
     System.out.println("3. Salir ");
     System.out.println("Opcion ");
     opcion = lector.nextInt();
-    
+
+    switch(opcion){
+      case 1->{
     double n,le;
     double cantidad,to;
     System.out.println("Datos");
@@ -44,6 +46,13 @@ public static void main(String[]args){
     System.out.println("El tiempor de entrega estimada es : "+df.format(to));
     System.out.println("El valor de n: "+n1);
     System.out.println("El punto de reorden es: "+reorden);
-    }
+      }
+      case 2->{
+        System.out.println("Ingrese la demanda del producto: ");
+        int demanda = lector.nextInt();
+
+      }
+      }
+    }while(option != 3);
   }
 }
